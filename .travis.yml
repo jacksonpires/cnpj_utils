@@ -4,3 +4,6 @@ rvm:
   - 2.0.0
   - 2.1.0
 script: "bundle exec rspec spec"
+addons:
+  code_climate:
+    repo_token: 037ce9a7d1b219345a5ef8be7af445aa42d6db06ec0379f6fbc98d42211eacae
