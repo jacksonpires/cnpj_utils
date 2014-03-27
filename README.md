@@ -1,4 +1,5 @@
 # CnpjUtils
+[![Gem Version](https://badge.fury.io/rb/cnpj_utils.png)](http://badge.fury.io/rb/cnpj_utils)
 
 CnpjUtils é uma suite de funcionalidades para CNPJ.
 O CnpjUtils é capaz de gerar CNPJ para testes no formado tradicional ou apenas numérico, testa se determinado número de CNPJ é válido, gera dígitos verificadores para determinado número candidato a CNPJ, dentre outras coisas.
