@@ -2,6 +2,7 @@
 [![Gem Version](https://badge.fury.io/rb/cnpj_utils.png)](http://badge.fury.io/rb/cnpj_utils)
 [![Build Status](https://travis-ci.org/jacksonpires/cnpj_utils.svg?branch=master)](https://travis-ci.org/jacksonpires/cnpj_utils)
 [![Code Climate](https://codeclimate.com/github/jacksonpires/cnpj_utils.png)](https://codeclimate.com/github/jacksonpires/cnpj_utils)
+[![Coverage](https://codeclimate.com/github/jacksonpires/cnpj_utils/coverage.png)](https://codeclimate.com/github/jacksonpires/cnpj_utils/coverage.png)
 
 CnpjUtils é uma suíte de funcionalidades para CNPJ.
 O CnpjUtils é capaz de gerar CNPJ para testes no formado tradicional ou apenas numérico, testa se determinado número de CNPJ é válido, gera dígitos verificadores para determinado número candidato a CNPJ, dentre outras coisas.
