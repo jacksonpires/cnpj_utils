@@ -83,6 +83,10 @@ Também é possível usar métodos em português:
     # Para gerar um número de CNPJ formatado a partir de um número candidato de 12 dígitos:
     "612873950001".gerar_cnpj_formatado => # "61.287.395/0001-40"
 
+## Recomende
+
+Gostou dessa gem? Recomende-me no [Working With Rails](http://www.workingwithrails.com/people/148426)!
+
 ## Contribuindo
 
 1. Faça um Fork
