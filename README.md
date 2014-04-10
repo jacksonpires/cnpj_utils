@@ -7,6 +7,13 @@
 CnpjUtils é uma suíte de funcionalidades para CNPJ.
 O CnpjUtils é capaz de gerar CNPJ para testes no formado tradicional ou apenas numérico, testa se determinado número de CNPJ é válido, gera dígitos verificadores para determinado número candidato a CNPJ, dentre outras coisas.
 
+## Compatibilidade
+
+O CnpjUtils usa o Travis-CI para efetuar testes em diferentes versões do Ruby. As versões testadas e aprovadas, por enquanto, são:
+
+* MRI 1.9.2, 1.9.3, 2.0.0, 2.1.0
+* JRuby 1.9.x
+
 ## Instalação
 
 Adicione essa linha na Gemfile da sua aplicação:
