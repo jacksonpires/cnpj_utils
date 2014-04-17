@@ -9,6 +9,8 @@ describe String do
   it "#mascara_de_cnpj_valida?" do
     expect("61.287.395/0001-40".mascara_de_cnpj_valida?).to be_true
     expect("61287395000140".mascara_de_cnpj_valida?).to be_true
+    expect("41405186000146".valid_cnpj?).to be_true
+    expect("41.405.186/0001-46".valid_cnpj?).to be_true
   end
 
   it "#valid_cnpj_mask? - be false" do

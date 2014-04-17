@@ -16,7 +16,7 @@ class String
   # "61.287.395/0001-40".valid_cnpj? => # true
   def valid_cnpj?
     if valid_cnpj_mask?
-      original_cnpj = self.gsub(/\.?\/?/,"",)
+      original_cnpj = self.gsub(/\.?\/?-?/,"",)
       tested_cnpj = original_cnpj[0..11]
 
       tested_cnpj << CnpjUtils::Cnpj.new(original_cnpj[0..11]).first_digit.to_s
