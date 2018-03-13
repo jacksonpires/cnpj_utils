@@ -10,7 +10,7 @@ describe CnpjUtils do
       expect(cnpj.numbers.size).to eql(12)
     end
 
-    it "#initialize - Fixnum" do
+    it "#initialize - Integer" do
       cnpj = CnpjUtils::Cnpj.new(123456780001)
       expect(cnpj.numbers).to be_a_kind_of(Array)
       expect(cnpj.numbers.size).to eql(12)
