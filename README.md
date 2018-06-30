@@ -102,7 +102,7 @@ CnpjUtils.cnpj_valido?("61.287.395/0001-40") => # true
 
 ## Recomende
 
-Gostou dessa gem? Recomende-me no [Working With Rails](http://www.workingwithrails.com/people/148426)!
+Gostou dessa gem? Recomende-me no [Linkedin](https://www.linkedin.com/in/jackson-pires-a0832b14)!
 
 ## Contribuindo
 
